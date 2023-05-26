@@ -12,13 +12,13 @@ npx hardhat node
 npx hardhat run scripts/deploy.ts
 ```
 Run 
-'''
+'''shell
 npm install
 '''
 For Installing dependencies 
 
 Run
-'''
+'''shell
 npx hardhat compile && npx hardhat run deploy/deploy.ts --network Testnet
 '''
 To compile and deploy it on Lukso Testnet 
